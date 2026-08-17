@@ -188,7 +188,7 @@ If parallel processing is available, this becomes a beautiful problem to have. I
 Adjusted:
 
 $$
-X = \min\left(X_{max},\ \max\left(1,\ \lfloor S_{avg}(i+1)-i\rfloor\right)\right)
+X = \min\left(X_{max},\ \max\left(0,\ \lfloor S_{avg}(i+1)-i\rfloor\right)\right)
 $$
 
 Where $X_{max}$ is the maximum number of pages allowed to wait in memory.
