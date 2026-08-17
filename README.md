@@ -155,7 +155,7 @@ Example:
 Substituting:
 
 $$
-X = \lfloor 0.66(i+1) \rfloor - i
+X = \lfloor 0.66(i+1) - i \rfloor
 $$
 
 For values of $i > 0$, the result becomes negative, which is not meaningful for queue depth.
@@ -163,7 +163,7 @@ For values of $i > 0$, the result becomes negative, which is not meaningful for 
 So the adjusted model becomes:
 
 $$
-X = \max\left(0,\ \lfloor S_{avg}(i+1) \rfloor - i\right)
+X = \max\left(0,\ \lfloor S_{avg}(i+1) - i \rfloor\right)
 $$
 
 
@@ -188,7 +188,7 @@ If parallel processing is available, this becomes a beautiful problem to have. I
 Adjusted:
 
 $$
-X = \min\left(X_{max},\ \max\left(1,\ \lfloor S_{avg}(i+1)\rfloor-i\right)\right)
+X = \min\left(X_{max},\ \max\left(1,\ \lfloor S_{avg}(i+1)-i\rfloor\right)\right)
 $$
 
 Where $X_{max}$ is the maximum number of pages allowed to wait in memory.
