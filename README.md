@@ -210,3 +210,5 @@ I say *tiny* because the only time being hidden is $P$, and if $P$ is already sm
 So yeah, that's my take on it.
 
 Nothing here is world-changing. I mainly wanted to explore a familiar problem from first principles, without relying on existing papers or implementations, and use it as an exercise in testing my thinking on a problem most people are already familiar with.
+
+Stay tune for part2 where I'll implement this in c# so that we have imperical data :)
