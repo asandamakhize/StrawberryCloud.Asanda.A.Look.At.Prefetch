@@ -15,7 +15,7 @@ In modern terms, this is the infamous TODO app but this explores something sligh
 
 When processing paged data over a network, execution is typically sequential.
 
-![Figure 1.1](assets\e0.drawio.png)
+![Figure 1.1](./assets/e0.drawio.png)
 **Figure 1.1: Sequential paging model**
 
 ### Where
@@ -59,7 +59,7 @@ The total runtime is therefore the cost of retrieving and processing every page 
 
 The idea is simple: while processing page $i$, another thread retrieves page $i+1$ (or more). Instead of the CPU waiting on network I/O, that waiting time is hidden behind processing.
 
-![Figure 1.2](assets\e1.drawio.png)
+![Figure 1.2](./assets/e1.drawio.png)
 **Figure 1.2: Prefetch paging model**
 
 ### Where
