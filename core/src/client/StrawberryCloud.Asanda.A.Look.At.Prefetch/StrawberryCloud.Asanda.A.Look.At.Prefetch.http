@@ -1,0 +1,6 @@
+@StrawberryCloud.Asanda.A.Look.At.Prefetch_HostAddress = http://localhost:5248
+
+GET {{StrawberryCloud.Asanda.A.Look.At.Prefetch_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
